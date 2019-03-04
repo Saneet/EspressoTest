@@ -1,0 +1,19 @@
+{
+  "cloudURL": "ford.perfectomobile.com",
+  "securityToken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJKQjcxSXRPVTNTcGRiOGp3LW1pNXpyeFJXWEg3a2JOU05kQy1ReUVndUx3In0.eyJqdGkiOiI4Y2FmOGFiZS1kZjY1LTQwNTUtYWJkMy1kZDczZDI5MDg5YTciLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTQ5Mzc2MTQ1LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2ZvcmQtcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiIwYzQ2NDZhYy05YTczLTQ1NGEtODA1Zi1hMTczODdlMGYxMjMiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI3Y2MyNzNmMy01ODRlLTRkODYtYmNjNi04ZmYyYmMyMWY5YmYiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX19.Lp6ohjXBTMB32ZkTc6W37WIgiIWLJuYRj-lfClz9GAIwlc5CV-tyzmT1Dz5CKiJn2SszTi75q3lUEnzzwMa0L_7P_90o7MrEifwV41O4h89HV_SqemrVOx9XJ7voYruZ-XiU8fDi4IclR1nJ7coYJZyuKa4TcJgHL9DDjJqTu8yj8zkjAK4MiQwDGQkbGpHB6hkWO3PfPBApVO6KgpB6lTM4NEuQ6CmQeCCxmVygYdnV046_p178vRjBWhnsJ_F_4P1JOzy05ds5UoHnsn6_bmkc3JoNVAAMltxpkc2B3f8VgEWZC4XTcW1JAWNyNpqsAQ91GrwBJrMx6JWePNQ2hA",
+  "devices": [
+    {
+      "platformName":"Android",
+      "platformVersion":"^[5678].*",
+      "manufacturer":"Samsung"
+    }
+  ],
+
+  "tags": [
+    "espresso", "plugin"
+  ],
+
+  "jobName": "saneet_ci_job",
+
+  "acquireDeviceRetryNumber" : 2
+}

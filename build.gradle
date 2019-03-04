@@ -5,8 +5,9 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url 'https://maven.google.com' }
         maven {
-            url "http://repository-perfectomobile.forge.cloudbees.com/public/"
+            url 'https://repo1.perfectomobile.com/public/repositories/maven'
         }
     }
     dependencies {
