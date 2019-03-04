@@ -1,0 +1,22 @@
+{
+  "cloudURL": "ford.perfectomobile.com",
+  "devices": [
+    {
+      "platformName":"Android",
+      "platformVersion":"^[5678].*",
+      "manufacturer":"Google"
+    }
+  ],
+
+  "tags": [
+    "espresso", "plugin"
+  ],
+
+  "jobName": "saneet_ci_job",
+
+  "acquireDeviceRetryNumber" : 2,
+
+  "instrumentationArgs" : [
+    "annotation=espressotest.saneet.com.espressotest.AnnotatedTest"
+  ]
+}

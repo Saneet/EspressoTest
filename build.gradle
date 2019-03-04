@@ -5,12 +5,13 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url 'https://maven.google.com' }
         maven {
-            url "http://repository-perfectomobile.forge.cloudbees.com/public/"
+            url 'https://repo1.perfectomobile.com/public/repositories/maven'
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.3.1'
         classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
 
     }
@@ -25,4 +26,15 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+    buildToolsVersion = "28.0.3"
+    androidxLibVersion = "1.0.0"
+    coreVersion = "1.1.0"
+    extJUnitVersion = "1.1.0"
+    runnerVersion = "1.1.1"
+    rulesVersion = "1.1.1"
+    espressoVersion = "3.1.1"
+    uiautomatorVersion = "2.2.0"
 }
